@@ -49,10 +49,14 @@ header{
     font-weight: 500;
     line-height:1.31;
     letter-spacing: 2%;
-    color: #2e2f42;
     list-style-type: none;
 }
-
+.link-studio{
+    color: #2E2F42;
+}
+.page-menu-list ul li:first-child a:hover{
+    color: #404bbf;
+}
 .contact{
     font-size: 16px;
     line-height: 1.5;
@@ -63,19 +67,19 @@ header{
 .address{
     font-style: normal;
 }
-.address ul li :first-child a :hover{
+.address ul li:first-child a:hover{
     color:#404bbf;
 }
-.address ul li :first-child a :focus{
+.address ul li:first-child a:focus{
     color: #404bbf;
 }
-.section-1{
+.section-one{
     width: 1440px;
     height: 600px;
     top: 72px;
     background-color: #2E2F42;
 }
-.section-1 h1{
+.section-one h1{
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -83,7 +87,7 @@ header{
     letter-spacing: 0.02em;
     color: #FFFFFF;
 }
-.section-1 button{
+.section-one button{
     background-color: #4D5AE5;
     font-family: "Roboto", sans-serif;
     color: #FFFFFF;
@@ -92,29 +96,29 @@ header{
     font-size: 16px;
     line-height: 1.5;
 }
-.section-1 button:hover{
+.section-one button:hover{
     background-color: #404bbf;
 }
-.section-1 button:focus{
+.section-one button:focus{
     background-color: #404bbf;
 }
-.section-1 button {
+.section-one button {
     cursor: pointer;
 }
-.section-2{
+.section-two{
     width: 1128px;
     height: 104px;
     top: 792px;
     left: 156px;
 }
-.section-2 ul li{
+.section-two ul li{
     width: 264px;
     height: 104px;
     top: 792px;
     left: 156px;
     gap: 8px;
 }
-.h3-strategy{
+.title-strategy{
     width: 264px;
     height: 24px;
     font-weight: 500;
@@ -132,17 +136,17 @@ header{
     letter-spacing: 0.02em;
     color: #434455;
 }
-.section-2 ul li{
+.section-two ul li{
     list-style-type: none;
 }
 
-.seciton-3{
+.section-three{
     width: 1440px;
     height: 732px;
     top: 1016px;
     background-color:#F4F4FD ;
 }
-.seciton-3 h2{
+.section-three h2{
     width: 162px;
     height: 40px;
     top: 1136px;
@@ -156,7 +160,7 @@ header{
     color: #2E2F42;
 }
 
-.seciton-3 ul li{
+.section-three ul li{
     list-style-type:none ;
     width: 264px;
     height: 380px;
@@ -164,7 +168,7 @@ header{
     gap: 32px;
     background-color: #FFFFFF;
 }
-.seciton-3 h3{
+.section-three h3{
     width: 134px;
     height: 24px;
     font-weight: 500;
@@ -174,7 +178,7 @@ header{
     letter-spacing: 0.02em;
     text-align:center;
 }
-.seciton-3 ul li p{
+.section-three ul li p{
     width: 128px;
     height: 24px;
     font-size: 16px;
@@ -182,18 +186,18 @@ header{
     text-align:center;
     letter-spacing: 0.02em;
 }
-.seciton-3 ul li img{
+.section-three ul li img{
     height: 260px;
 }
 
-.section-4{
+.section-four{
     width: 1128px;
     height: 100px;
     top: 1868px;
     left: 156px;
     border: 1px;
 }
-.section4-h2{
+.our-portfolio{
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -201,12 +205,12 @@ header{
     text-transform: capitalize;
     color: #2e2f42;
 }
-.section-4 ul {
+.section-four ul {
     width: 360px;
     height: 420px;
 
 }
-.section-4 ul li{
+.section-four ul li{
     list-style-type: none;   
 }
 .title-app{
@@ -246,7 +250,7 @@ footer{
     font-size: 18;
     line-height: 1.17;
     letter-spacing: 3%;
-    color: #2E2F42;
+    color: #2e2f42;
     text-decoration: none;    
 }
 .footer-p{
