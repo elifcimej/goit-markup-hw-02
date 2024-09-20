@@ -66,6 +66,9 @@ header{
     top: 72px;
     background-color: #2E2F42;
 }
+.order-service-button{
+    cursor: pointer;
+}
 .hero-image h1{
     font-weight: 700;
     font-size: 56px;
