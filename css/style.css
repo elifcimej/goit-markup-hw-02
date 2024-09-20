@@ -19,19 +19,13 @@ header{
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
-    letter-spacing: 3%;
+    letter-spacing: 0.03em;
     color: #4D5AE5;
     text-transform: uppercase;
     text-decoration: none;
 }
-.second-page-logo-title{
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 3%;
+.page-logo-title span{
     color: #2E2F42;
-    text-decoration: none;
 }
 .menu-nav{
     width:fit-content;
@@ -40,6 +34,17 @@ header{
     left: 347px;
     gap: 40px;  
 }
+.link-studio{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e3142;
+    text-decoration: none;
+}
+.menu-nav ul li a:focus{
+    color: #404bbf;
+}
 .page-menu-list li{
     font-weight: 500;
     line-height:1.31;
@@ -47,19 +52,18 @@ header{
     color: #2e3142;
     list-style-type: none;
 }
-.contact-mail{
-    width: 153px;
-    height: 24px;
-    top: 24px;
-    left: 940px;
+.contact{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
     text-decoration: none;
 }
-.contact-phone{
-    width: 153px;
-    height: 24px;
-    top: 24px;
-    left: 1133px;
-    text-decoration: none;
+.address ul li a :hover{
+    color:#404bbf;
+}
+.address ul li a :focus{
+    color: #404bbf;
 }
 .hero-image{
     width: 1440px;
