@@ -42,7 +42,7 @@ header{
     color: #2e3142;
     text-decoration: none;
 }
-.menu-nav ul li a:focus{
+.menu-nav ul li:first-child a:focus{
     color: #404bbf;
 }
 .page-menu-list li{
