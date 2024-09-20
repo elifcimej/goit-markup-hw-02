@@ -49,9 +49,10 @@ header{
     font-weight: 500;
     line-height:1.31;
     letter-spacing: 2%;
-    color: #2e3142;
+    color: #2e2f42;
     list-style-type: none;
 }
+
 .contact{
     font-size: 16px;
     line-height: 1.5;
@@ -59,10 +60,13 @@ header{
     color: #434455;
     text-decoration: none;
 }
-.address ul li a :hover{
+.address{
+    font-style: normal;
+}
+.address ul li :first-child a :hover{
     color:#404bbf;
 }
-.address ul li a :focus{
+.address ul li :first-child a :focus{
     color: #404bbf;
 }
 .hero-image{
