@@ -209,13 +209,17 @@ header{
 .section-4 ul li{
     list-style-type: none;   
 }
-.section4-h3{
+.title-app{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
 
+}
+
+.text-p{
+    letter-spacing:0.02em;
 }
 
 footer{
