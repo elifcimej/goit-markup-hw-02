@@ -142,14 +142,27 @@ header{
     top: 1016px;
     background-color:#F4F4FD ;
 }
-.seciton-3 ul{
+.seciton-3 h2{
+    width: 162px;
+    height: 40px;
+    top: 1136px;
+    left: 639px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+
+.seciton-3 ul li{
+    list-style-type:none ;
     width: 264px;
     height: 380px;
     top: 1248px;
     gap: 32px;
-}
-.seciton-3 ul li{
-    list-style-type:none ;
+    background-color: #FFFFFF;
 }
 .seciton-3 h3{
     width: 134px;
@@ -157,37 +170,51 @@ header{
     font-weight: 500;
     font-size: 20px;
     color: #2E2F42;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
     text-align:center;
 }
 .seciton-3 ul li p{
     width: 128px;
     height: 24px;
+    font-size: 16px;
     color: #434455;
     text-align:center;
+    letter-spacing: 0.02em;
 }
 .seciton-3 ul li img{
     height: 260px;
 }
 
-.section3{
+.section-4{
     width: 1128px;
     height: 100px;
     top: 1868px;
     left: 156px;
     border: 1px;
 }
-.section3 ul {
+.section4-h2{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+.section-4 ul {
     width: 360px;
     height: 420px;
 
 }
-.section3 ul li{
+.section-4 ul li{
     list-style-type: none;   
 }
-.section3 h3{
+.section4-h3{
     font-weight: 500;
-    font-size: 20;
-    color: #2E2F42;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 
 }
 
@@ -195,7 +222,7 @@ footer{
     width: 1440px;
     height: 312px;
     top: 2988px;
-    background-color: #2E2F42;
+    background-color: #2e2f42;
 }
 
 .page-logo-footer{
