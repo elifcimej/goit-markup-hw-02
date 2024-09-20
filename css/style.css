@@ -136,22 +136,22 @@ header{
     list-style-type: none;
 }
 
-.section2{
+.seciton-3{
     width: 1440px;
     height: 732px;
     top: 1016px;
     background-color:#F4F4FD ;
 }
-.section2 ul{
+.seciton-3 ul{
     width: 264px;
     height: 380px;
     top: 1248px;
     gap: 32px;
 }
-.section2 ul li{
+.seciton-3 ul li{
     list-style-type:none ;
 }
-.section2 h3{
+.seciton-3 h3{
     width: 134px;
     height: 24px;
     font-weight: 500;
@@ -159,13 +159,13 @@ header{
     color: #2E2F42;
     text-align:center;
 }
-.section2 ul li p{
+.seciton-3 ul li p{
     width: 128px;
     height: 24px;
     color: #434455;
     text-align:center;
 }
-.section2 ul li img{
+.seciton-3 ul li img{
     height: 260px;
 }
 
