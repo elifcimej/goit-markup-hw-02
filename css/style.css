@@ -54,6 +54,9 @@ header{
 .menu-nav ul li:first-child a:focus{
     color: #404bbf;
 }
+.menu-nav ul li:first-child a:hover {
+    color: #404bbf;
+}
 .page-menu-list li{
     font-weight: 500;
     line-height:1.31;
