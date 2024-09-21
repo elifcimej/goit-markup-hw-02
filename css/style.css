@@ -7,15 +7,7 @@ body{
     letter-spacing: 2%;
     background-color: #FFFFFF;
 }
-.span{
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18;
-    line-height: 1.17;
-    letter-spacing: 3%;
-    text-decoration: none;  
-    color: #2e2f42;  
-}
+
 header{
     background-color:#FFFFFF ;
     bottom: 1px;
@@ -256,6 +248,15 @@ footer{
     color: #4D5AE5;    
 }
 
+.footer-span {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18;
+    line-height: 1.17;
+    letter-spacing: 3%;
+    text-decoration: none;
+    color: #2e2f42;
+}
 
 .footer-p{
     line-height: 1.5;
