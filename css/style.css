@@ -7,6 +7,15 @@ body{
     letter-spacing: 2%;
     background-color: #FFFFFF;
 }
+.span{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18;
+    line-height: 1.17;
+    letter-spacing: 3%;
+    text-decoration: none;  
+    color: #2e2f42;  
+}
 header{
     background-color:#FFFFFF ;
     bottom: 1px;
@@ -43,6 +52,9 @@ header{
     text-decoration: none;
 }
 .menu-nav ul li:first-child a:focus{
+    color: #404bbf;
+}
+.menu-nav ul li:first-child a:hover {
     color: #404bbf;
 }
 .page-menu-list li{
@@ -244,15 +256,7 @@ footer{
     color: #4D5AE5;    
 }
 
-.footer-span{
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18;
-    line-height: 1.17;
-    letter-spacing: 3%;
-    color: #2e2f42;
-    text-decoration: none;    
-}
+
 .footer-p{
     line-height: 1.5;
     color: #F4F4FD;
