@@ -92,6 +92,8 @@ header{
     color: #FFFFFF;
 }
 .section-one button{
+    width: 169px;
+    height: 56px;
     background-color: #4D5AE5;
     font-family: "Roboto", sans-serif;
     color: #FFFFFF;
@@ -99,6 +101,7 @@ header{
     letter-spacing: 0.04em;
     font-size: 16px;
     line-height: 1.5;
+    cursor: pointer;
 }
 .section-one button:hover{
     background-color: #404bbf;
@@ -106,9 +109,7 @@ header{
 .section-one button:focus{
     background-color: #404bbf;
 }
-.section-one button {
-    cursor: pointer;
-}
+
 .section-two{
     width: 1128px;
     height: 104px;
@@ -127,10 +128,15 @@ header{
     height: 24px;
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 2.4em;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    color: navy;
+    top: 792px;
+    left: 156px;
+    gap: 8px;
+    opacity: 0px;
 }
 .p-strategy{
     width: 264px;
@@ -139,6 +145,8 @@ header{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    gap: 0px;
+    opacity: 0px;
 }
 .section-two ul li{
     list-style-type: none;
@@ -248,7 +256,7 @@ footer{
     color: #4D5AE5;    
 }
 
-.footer-span {
+.footer a span {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18;
