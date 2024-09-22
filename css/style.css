@@ -28,12 +28,11 @@ header{
 .page-logo-title span{
     color: #2E2F42;
 }
-.menu-nav{
-    width:fit-content;
-    height: fit-content;
+.menu-nav a{
+    width:115px;
+    height: 24px;
     top: 24px;
-    left: 347px;
-    gap: 40px;  
+    left: 156px;
 }
 .link-studio{
     font-weight: 500;
@@ -49,6 +48,15 @@ header{
 .menu-nav ul li:first-child a:hover {
     color: #404bbf;
 }
+.page-menu-list{
+    width: 261px;
+    height: 24px;
+    top: 24px;
+    left: 347px;
+    gap: 40px;
+}
+
+
 .page-menu-list li{
     font-weight: 500;
     line-height:1.31;
@@ -71,6 +79,19 @@ header{
 .address{
     font-style: normal;
 }
+.address-li-one{
+    width: 153px;
+    height: 24px;
+    top: 24px;
+    left: 940px;
+}
+.address-li-two{
+    width: 151px;
+    height: 24px;
+    top: 24px;
+    left: 1133px;
+}
+
 .address ul li:first-child a:hover{
     color:#404bbf;
 }
@@ -81,6 +102,7 @@ header{
     width: 1440px;
     height: 600px;
     top: 72px;
+    left: 156px;
     background-color: #2E2F42;
 }
 .section-one h1{
@@ -114,7 +136,6 @@ header{
     width: 1128px;
     height: 104px;
     top: 792px;
-    left: 156px;
 }
 .section-two ul li{
     width: 264px;
@@ -208,6 +229,9 @@ header{
     top: 1868px;
     left: 156px;
     border: 1px;
+    background: #FFFFFF;
+    margin: auto;
+
 }
 .our-portfolio{
     font-size: 36px;
@@ -216,6 +240,12 @@ header{
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+}
+.section-four h2{
+    width: 218px;
+    height: 40px;
+    top: 1868px;
+    left: 611px;
 }
 .section-four ul {
     width: 360px;
@@ -267,6 +297,10 @@ footer{
 }
 
 .footer-p{
+    width: 264px;
+    height: 72px;
+    top: 3128px;
+    left: 156px;
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
