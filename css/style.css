@@ -16,6 +16,10 @@ header{
     border: 1px;
 }
 .page-logo-title{
+    width: 115px;
+    height: 24px;
+    top: 24px;
+    left: 156px;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -28,18 +32,19 @@ header{
 .page-logo-title span{
     color: #2E2F42;
 }
-.menu-nav a{
-    width:115px;
+.page-menu-list {
+    width: 261px;
     height: 24px;
     top: 24px;
-    left: 156px;
+    left: 347px;
+    gap: 40px;
 }
 .link-studio{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2e3142;
+    color: #2e2f42;
     text-decoration: none;
 }
 .menu-nav ul li:first-child a:focus{
@@ -48,24 +53,7 @@ header{
 .menu-nav ul li:first-child a:hover {
     color: #404bbf;
 }
-.page-menu-list{
-    width: 261px;
-    height: 24px;
-    top: 24px;
-    left: 347px;
-    gap: 40px;
-}
 
-
-.page-menu-list li{
-    font-weight: 500;
-    line-height:1.31;
-    letter-spacing: 2%;
-    list-style-type: none;
-}
-.link-studio{
-    color: #2E2F42;
-}
 .page-menu-list ul li:first-child a:hover{
     color: #404bbf;
 }
@@ -102,10 +90,13 @@ header{
     width: 1440px;
     height: 600px;
     top: 72px;
-    left: 156px;
     background-color: #2E2F42;
 }
 .section-one h1{
+    width: 469px;
+    height: 120px;
+    top: 260px;
+    left: 472px;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -141,13 +132,25 @@ header{
     width: 1128px;
     height: 104px;
     top: 792px;
+    left: 156px;
 }
 .section-two ul li{
     width: 264px;
     height: 104px;
     top: 792px;
-    left: 156px;
     gap: 8px;
+}
+.list-one{
+    left: 156px;
+}
+.list-two{
+    left: 444px;
+}
+.list-three{
+    left: 732px;
+}
+.list-four{
+    left: 1020px;
 }
 .title-strategy{
     width: 264px;
@@ -232,12 +235,16 @@ header{
     height: 100px;
     top: 1868px;
     left: 156px;
-    border: 1px;
+    border: 1px,1px,1px,1px;
     background: #FFFFFF;
     margin: auto;
 
 }
 .our-portfolio{
+    width: 218px;
+    height: 40px;
+    top: 1868px;
+    left: 611px;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
