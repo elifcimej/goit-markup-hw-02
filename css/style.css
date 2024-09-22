@@ -116,6 +116,11 @@ header{
 .section-one button{
     width: 169px;
     height: 56px;
+    top: 428px;
+    left: 636px;
+    border-radius: 4px;
+    padding: 16px, 32px, 16px, 32px;
+    gap: 10px;
     background-color: #4D5AE5;
     font-family: "Roboto", sans-serif;
     color: #FFFFFF;
@@ -153,7 +158,6 @@ header{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    color: navy;
     top: 792px;
     left: 156px;
     gap: 8px;
@@ -293,7 +297,7 @@ footer{
     line-height: 1.17;
     letter-spacing: 3%;
     text-decoration: none;
-    color: #2e2f42;
+    color: #F4F4FD;
 }
 
 .footer-p{
