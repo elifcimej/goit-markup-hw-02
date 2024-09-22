@@ -28,12 +28,11 @@ header{
 .page-logo-title span{
     color: #2E2F42;
 }
-.menu-nav{
-    width:fit-content;
-    height: fit-content;
+.menu-nav a{
+    width:115px;
+    height: 24px;
     top: 24px;
-    left: 347px;
-    gap: 40px;  
+    left: 156px;
 }
 .link-studio{
     font-weight: 500;
@@ -49,6 +48,15 @@ header{
 .menu-nav ul li:first-child a:hover {
     color: #404bbf;
 }
+.page-menu-list{
+    width: 261px;
+    height: 24px;
+    top: 24px;
+    left: 347px;
+    gap: 40px;
+}
+
+
 .page-menu-list li{
     font-weight: 500;
     line-height:1.31;
@@ -71,6 +79,19 @@ header{
 .address{
     font-style: normal;
 }
+.address-li-one{
+    width: 153px;
+    height: 24px;
+    top: 24px;
+    left: 940px;
+}
+.address-li-two{
+    width: 151px;
+    height: 24px;
+    top: 24px;
+    left: 1133px;
+}
+
 .address ul li:first-child a:hover{
     color:#404bbf;
 }
@@ -81,6 +102,7 @@ header{
     width: 1440px;
     height: 600px;
     top: 72px;
+    left: 156px;
     background-color: #2E2F42;
 }
 .section-one h1{
@@ -92,6 +114,8 @@ header{
     color: #FFFFFF;
 }
 .section-one button{
+    width: 169px;
+    height: 56px;
     background-color: #4D5AE5;
     font-family: "Roboto", sans-serif;
     color: #FFFFFF;
@@ -99,6 +123,7 @@ header{
     letter-spacing: 0.04em;
     font-size: 16px;
     line-height: 1.5;
+    cursor: pointer;
 }
 .section-one button:hover{
     background-color: #404bbf;
@@ -106,14 +131,11 @@ header{
 .section-one button:focus{
     background-color: #404bbf;
 }
-.section-one button {
-    cursor: pointer;
-}
+
 .section-two{
     width: 1128px;
     height: 104px;
     top: 792px;
-    left: 156px;
 }
 .section-two ul li{
     width: 264px;
@@ -127,10 +149,15 @@ header{
     height: 24px;
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 2.4em;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    color: navy;
+    top: 792px;
+    left: 156px;
+    gap: 8px;
+    opacity: 0px;
 }
 .p-strategy{
     width: 264px;
@@ -139,6 +166,8 @@ header{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    gap: 0px;
+    opacity: 0px;
 }
 .section-two ul li{
     list-style-type: none;
@@ -200,6 +229,9 @@ header{
     top: 1868px;
     left: 156px;
     border: 1px;
+    background: #FFFFFF;
+    margin: auto;
+
 }
 .our-portfolio{
     font-size: 36px;
@@ -208,6 +240,12 @@ header{
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+}
+.section-four h2{
+    width: 218px;
+    height: 40px;
+    top: 1868px;
+    left: 611px;
 }
 .section-four ul {
     width: 360px;
@@ -248,7 +286,7 @@ footer{
     color: #4D5AE5;    
 }
 
-.footer-span {
+.footer a span {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18;
@@ -259,6 +297,10 @@ footer{
 }
 
 .footer-p{
+    width: 264px;
+    height: 72px;
+    top: 3128px;
+    left: 156px;
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
