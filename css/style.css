@@ -160,7 +160,7 @@ header{
     background-color:#F4F4FD ;
 }
 .section-three h2{
-    
+    text-align: center;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -171,18 +171,13 @@ header{
 
 .section-three ul li{
     list-style-type:none ;
-    /* width: 264px;
-    height: 380px;
-    top: 1248px;
-    gap: 32px; 
-    background-color: #FFFFFF;*/
 }
 .section-three img {
     width: 264px;
     height: 260px;
 }
 .section-three h3{
-
+    
     font-weight: 500;
     font-size: 20px;
     color: #2E2F42;
@@ -211,17 +206,6 @@ header{
     text-transform: capitalize;
     color: #2e2f42;
 }
-/* .section-four h2{
- width: 218px;
-    height: 40px;
-    top: 1868px;
-    left: 611px;   
-} */
-/* .section-four ul {
-    width: 360px;
-    height: 420px;
-
-} */
 .section-four ul li{
     list-style-type: none;   
 }
