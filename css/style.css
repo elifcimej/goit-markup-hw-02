@@ -223,9 +223,9 @@ header{
 }
 
 footer{
-    width: 1440px;
+    /* width: 1440px;
     height: 312px;
-    top: 2988px;
+    top: 2988px; */
     background-color: #2e2f42;
 }
 
